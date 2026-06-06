@@ -37,9 +37,9 @@ Rules:
 - Put transport and other costs in the table, not in properties.
 - Keep `remaining_today = daily_budget - food spending`.
 - Allow `remaining_today` to be negative.
-- Add `Daily Food Difference` and `Monthly Cumulative Food Difference` in `## Daily Summary`, and do not repeat `Daily Food Balance` in the visible summary text.
-- Compute `Daily Food Difference = daily_budget - daily food spending`.
-- Compute `Monthly Cumulative Food Difference = day-of-month * daily_budget - cumulative monthly food spending through that day`.
+- Add `Daily Food Balance` and `Monthly Cumulative Food Balance` in `## Daily Summary`, and do not repeat `Daily Food Balance` in the visible summary text.
+- Compute `Daily Food Balance = daily_budget - daily food spending`.
+- Compute `Monthly Cumulative Food Balance = day-of-month * daily_budget - cumulative monthly food spending through that day`.
 - Do not add an H1 title to the daily note; the file name already serves as the visible page title in Obsidian.
 - Keep the visible `Daily Summary` concise: if the day only contains food spending, omit transport and total-spend lines; if there are transport or other non-food items, list them explicitly and include `total_spent`.
 
@@ -57,7 +57,7 @@ Monthly pages should contain:
 - month-end review prompts
 - the daily table at the bottom
 
-The daily table should show `Date`, `Food`, `Transport`, `Other`, `Daily Difference`, and `Cumulative Difference`.
+The daily table should show `Date`, `Food`, `Transport`, `Other`, `Daily Balance`, and `Cumulative Balance`.
 
 ## Category handling
 
