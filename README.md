@@ -2,11 +2,11 @@
 
 Codex skill for recording daily expenses and monthly finance summaries in an Obsidian Finance vault.
 
-中文說明: [README.zh-TW.md](README.zh-TW.md)
+Traditional Chinese README: [README.zh-TW.md](README.zh-TW.md)
 
 ## What it does
 
-- Records daily spending into dated notes under `Finance/支出紀錄/YYYY-MM/`
+- Records daily spending into monthly dated notes under the vault's expense-records folder
 - Keeps daily entries structured for Dataview and monthly charts
 - Updates month pages so summaries, charts, and totals stay in sync
 - Preserves the vault rules for `daily_budget`, `remaining_today`, and monthly preset categories
@@ -30,4 +30,4 @@ Use this skill when you want Codex to:
 
 - This skill is designed for a finance vault that follows the rules in `Finance/AGENTS.md`
 - `daily_budget` is the food budget; transport and other spending stay in the daily table
-- Monthly summaries treat `訂閱費` and `投資` as preset monthly items
+- Monthly summaries treat subscription fees and investments as preset monthly items
