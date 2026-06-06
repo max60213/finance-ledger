@@ -19,6 +19,26 @@ Traditional Chinese: [README.md](README.md)
 - Compare planned budgets with actual spending and track balances over time
 - Preserve the user's existing vault structure, language, and category conventions
 
+## Vault Structure
+
+```text
+Finance/
+├─ Expense Records/
+│  ├─ 2026-05/
+│  │  ├─ 2026-05.md
+│  │  ├─ 2026-05-29.md
+│  │  ├─ 2026-05-30.md
+│  │  └─ 2026-05-31.md
+│  └─ 2026-06/
+│     ├─ 2026-06.md
+│     ├─ 2026-06-01.md
+│     ├─ 2026-06-02.md
+│     └─ 2026-06-05.md
+└─ Budget Simulation.md
+```
+
+Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.
+
 ## Example outputs
 
 <table>
