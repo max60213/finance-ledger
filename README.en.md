@@ -4,12 +4,6 @@ Finance Ledger is an Agent skill for recording daily expenses, tracking budgets,
 
 Traditional Chinese: [README.md](README.md)
 
-## Prerequisites
-
-- Obsidian
-- Dataview plugin
-- Charts plugin
-
 ## Features
 
 - Record daily expenses through natural-language or spoken descriptions
@@ -19,7 +13,13 @@ Traditional Chinese: [README.md](README.md)
 - Compare planned budgets with actual spending and track balances over time
 - Preserve the user's existing vault structure, language, and category conventions
 
-## Vault Structure
+## Prerequisites
+
+- Obsidian
+- Dataview plugin
+- Charts plugin
+
+## Structure
 
 ```text
 Finance/
@@ -38,6 +38,13 @@ Finance/
 ```
 
 Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.
+
+### Repository structure
+
+- `SKILL.md`: primary skill instructions for Agent
+- `agents/openai.yaml`: metadata used by skill lists and interfaces
+- `references/finance-workflow.md`: detailed bookkeeping workflow and data structure
+- `assets/`: example images used by the README
 
 ## Example outputs
 
@@ -83,26 +90,6 @@ Each month lives in its own folder. The month page handles the summary, and each
 
 > These numbers are example output only and do not represent real spending data.
 
-## Vault Structure
-
-```text
-Finance/
-├─ Expense Records/
-│  ├─ 2026-05/
-│  │  ├─ 2026-05.md
-│  │  ├─ 2026-05-29.md
-│  │  ├─ 2026-05-30.md
-│  │  └─ 2026-05-31.md
-│  └─ 2026-06/
-│     ├─ 2026-06.md
-│     ├─ 2026-06-01.md
-│     ├─ 2026-06-02.md
-│     └─ 2026-06-05.md
-└─ Budget Simulation.md
-```
-
-Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.
-
 ## Expense categories
 
 Users can define categories that match their financial plan, such as:
@@ -125,13 +112,6 @@ A user can describe daily spending directly to an Agent:
 The Agent records the expenses in the daily note, classifies them as food and transport, and recalculates the daily total, budget difference, and cumulative monthly results.
 
 Each month has a summary page. Whenever a daily expense is added or changed, the monthly table, category charts, and budget comparison update accordingly, making it easier to track both daily and monthly spending.
-
-## Repository structure
-
-- `SKILL.md`: primary skill instructions for Agent
-- `agents/openai.yaml`: metadata used by skill lists and interfaces
-- `references/finance-workflow.md`: detailed bookkeeping workflow and data structure
-- `assets/`: example images used by the README
 
 ## Notes
 
