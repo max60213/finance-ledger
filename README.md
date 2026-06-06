@@ -1,6 +1,6 @@
 # Finance Ledger
 
-這是一個用於 Obsidian 的 AI agent skill，可協助你記錄每日支出、追蹤預算，並自動整理每月財務統計。
+這是一個用於 Obsidian 的 Agent skill，可協助你記錄每日支出、追蹤預算，並自動整理每月財務統計。
 
 English: [README.en.md](README.en.md)
 
@@ -78,23 +78,23 @@ English: [README.en.md](README.en.md)
 - 儲蓄
 - 其他
 
-這些名稱只是範例。AI agent 應優先沿用使用者 Vault 內既有的分類與語言，也可以依需求新增或調整分類。
+這些名稱只是範例。Agent 應優先沿用使用者 Vault 內既有的分類與語言，也可以依需求新增或調整分類。
 
 
 ## 使用方式
 
-使用者每天可以直接向 AI agent 描述當天花費，例如：
+使用者每天可以直接向 Agent 描述當天花費，例如：
 
 > 今天午餐花了 180 元，搭火車花了 63 元。
 
-AI agent 會將內容整理到當日支出筆記，分別歸類為飲食與交通，並重新計算當日支出、預算差額及當月累積結果。
+Agent 會將內容整理到當日支出筆記，分別歸類為飲食與交通，並重新計算當日支出、預算差額及當月累積結果。
 
 每個月都有一份彙整頁面。只要新增或修改每日花費，當月的統計表、分類圖表與預算比較就會同步更新，方便隨時追蹤每天及整月的開銷。
 
 
 ## 專案結構
 
-- `SKILL.md`：AI agents 使用的主要技能說明
+- `SKILL.md`：Agent 使用的主要技能說明
 - `agents/openai.yaml`：skill 清單與介面所需的 metadata
 - `references/finance-workflow.md`：完整的記帳工作流程與資料結構
 - `assets/`：README 使用的範例圖片

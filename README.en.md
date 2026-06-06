@@ -1,6 +1,6 @@
 # Finance Ledger
 
-Finance Ledger is an AI agent skill for recording daily expenses, tracking budgets, and maintaining monthly financial summaries in an Obsidian Finance vault.
+Finance Ledger is an Agent skill for recording daily expenses, tracking budgets, and maintaining monthly financial summaries in an Obsidian Finance vault.
 
 Traditional Chinese: [README.md](README.md)
 
@@ -74,21 +74,21 @@ Users can define categories that match their financial plan, such as:
 - Savings
 - Other
 
-These names are examples rather than fixed requirements. The AI agent should prefer categories and language already used in the vault, while allowing users to add or adjust categories when needed.
+These names are examples rather than fixed requirements. The Agent should prefer categories and language already used in the vault, while allowing users to add or adjust categories when needed.
 
 ## Usage
 
-A user can describe daily spending directly to an AI agent:
+A user can describe daily spending directly to an Agent:
 
 > I spent 180 on lunch and 63 on a train ticket today.
 
-The AI agent records the expenses in the daily note, classifies them as food and transport, and recalculates the daily total, budget difference, and cumulative monthly results.
+The Agent records the expenses in the daily note, classifies them as food and transport, and recalculates the daily total, budget difference, and cumulative monthly results.
 
 Each month has a summary page. Whenever a daily expense is added or changed, the monthly table, category charts, and budget comparison update accordingly, making it easier to track both daily and monthly spending.
 
 ## Repository structure
 
-- `SKILL.md`: primary skill instructions for AI agents
+- `SKILL.md`: primary skill instructions for Agent
 - `agents/openai.yaml`: metadata used by skill lists and interfaces
 - `references/finance-workflow.md`: detailed bookkeeping workflow and data structure
 - `assets/`: example images used by the README
