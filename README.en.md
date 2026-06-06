@@ -83,6 +83,26 @@ Each month lives in its own folder. The month page handles the summary, and each
 
 > These numbers are example output only and do not represent real spending data.
 
+## Vault Structure
+
+```text
+Finance/
+├─ Expense Records/
+│  ├─ 2026-05/
+│  │  ├─ 2026-05.md
+│  │  ├─ 2026-05-29.md
+│  │  ├─ 2026-05-30.md
+│  │  └─ 2026-05-31.md
+│  └─ 2026-06/
+│     ├─ 2026-06.md
+│     ├─ 2026-06-01.md
+│     ├─ 2026-06-02.md
+│     └─ 2026-06-05.md
+└─ Budget Simulation.md
+```
+
+Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.
+
 ## Expense categories
 
 Users can define categories that match their financial plan, such as:
