@@ -77,7 +77,7 @@ Each month has a summary page. Whenever a daily expense is added or changed, the
 | 01-04 | 350 | 0 | 0 | +50 | +40 |
 | 01-05 | 300 | 40 | 20 | +100 | +140 |
 
-These numbers are only sample output to show the format. They are not real spending data.
+These numbers are only example output to show the format. They are not real spending data.
 
 ## Repository structure
 
