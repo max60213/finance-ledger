@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finance Ledger"
+  short_description: "Record daily expenses and monthly finance summaries"
+  default_prompt: "Use $finance-ledger to record today's expenses and update the monthly finance summary in the Obsidian vault."
