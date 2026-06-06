@@ -61,14 +61,12 @@ Use stable categories and aliases:
 - `交通`
 - `其他`
 - `訂閱費`
-- `基金`
-- `美股`
+- `投資`
 
 Monthly summaries should treat these as preset:
 
 - `訂閱費`
-- `基金`
-- `美股`
+- `投資`
 
 These categories start the month as already fully spent/invested and should not be re-accumulated from daily pages.
 

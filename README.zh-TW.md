@@ -30,4 +30,4 @@ English: [README.md](README.md)
 
 - 這個 skill 依照 `Finance/AGENTS.md` 的規則設計
 - `daily_budget` 只代表飲食預算，交通與其他支出要留在正文表格
-- 月結預設把 `訂閱費`、`基金`、`美股` 視為已完成的固定項目
+- 月結預設把 `訂閱費`、`投資` 視為已完成的固定項目
