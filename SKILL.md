@@ -28,6 +28,7 @@ Use this skill to keep the Finance vault consistent when recording daily expense
 
 - Keep file paths and names in `YYYY-MM/YYYY-MM-DD.md` format.
 - Do not add an H1 title to daily notes; Obsidian already uses the file name as the visible page title.
+- Do not leave a blank line after the frontmatter in daily notes; start the body immediately with `## Daily Expenses` or the localized equivalent.
 - Do not move daily spending into properties.
 - Do not invent new category names unless the user explicitly asks for a change.
 - Preserve existing Dataview / Obsidian chart structure when updating month pages.
