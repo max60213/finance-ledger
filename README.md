@@ -1,6 +1,6 @@
 # Finance Ledger
 
-這是一個用於 Obsidian 財務 Vault 的 AI agent skill，可協助你記錄每日支出、追蹤預算，並自動整理每月財務統計。
+這是一個用於 Obsidian 的 AI agent skill，可協助你記錄每日支出、追蹤預算，並自動整理每月財務統計。
 
 English: [README.en.md](README.en.md)
 
