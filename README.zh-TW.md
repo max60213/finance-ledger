@@ -1,6 +1,6 @@
 # Finance Ledger
 
-這是給 Obsidian 財務保險庫使用的 Codex skill，用來記錄每日支出與每月財務總結。
+這是給 Obsidian 財務保險庫使用的 AI agent skill，用來記錄每日支出與每月財務總結。
 
 English: [README.md](README.md)
 
@@ -13,13 +13,13 @@ English: [README.md](README.md)
 
 ## 倉庫結構
 
-- `SKILL.md`：Codex 讀取的主要技能說明
-- `agents/openai.yaml`：Codex skill 清單與 chip 的 UI metadata
+- `SKILL.md`：AI agents 讀取的主要技能說明
+- `agents/openai.yaml`：skill 清單與 chip 的 UI metadata
 - `references/finance-workflow.md`：較完整的工作流程參考
 
 ## 使用時機
 
-當你需要 Codex：
+當你需要 AI agent：
 
 - 記錄一筆新的每日支出
 - 更新既有的日記頁

@@ -1,6 +1,6 @@
 # Finance Ledger
 
-Codex skill for recording daily expenses and monthly finance summaries in an Obsidian Finance vault.
+AI agent skill for recording daily expenses and monthly finance summaries in an Obsidian Finance vault.
 
 Traditional Chinese README: [README.zh-TW.md](README.zh-TW.md)
 
@@ -13,13 +13,13 @@ Traditional Chinese README: [README.zh-TW.md](README.zh-TW.md)
 
 ## Repository structure
 
-- `SKILL.md`: skill instructions used by Codex
-- `agents/openai.yaml`: UI metadata for Codex skill lists and chips
+- `SKILL.md`: skill instructions used by AI agents
+- `agents/openai.yaml`: UI metadata for skill lists and chips
 - `references/finance-workflow.md`: detailed workflow reference
 
 ## Usage
 
-Use this skill when you want Codex to:
+Use this skill when you want an AI agent to:
 
 - log a new day of expenses
 - update an existing daily note
