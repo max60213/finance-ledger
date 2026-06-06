@@ -41,6 +41,7 @@ Rules:
 - Compute `Daily Food Difference = daily_budget - daily food spending`.
 - Compute `Monthly Cumulative Food Difference = day-of-month * daily_budget - cumulative monthly food spending through that day`.
 - Do not add an H1 title to the daily note; the file name already serves as the visible page title in Obsidian.
+- Keep the visible `Daily Summary` concise: if the day only contains food spending, omit transport and total-spend lines; if there are transport or other non-food items, list them explicitly and include `total_spent`.
 
 Translate headings and labels to match the user's language when writing notes.
 

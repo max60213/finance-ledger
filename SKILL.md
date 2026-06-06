@@ -16,7 +16,7 @@ Use this skill to keep the Finance vault consistent when recording daily expense
 3. Create or update `Finance/Expense Records/YYYY-MM/YYYY-MM-DD.md` for the daily record; update the existing note if that date already exists. Translate the path names to match the user's language and existing vault structure when writing files.
 4. Keep daily spending in a `## Daily Expenses` table, not in properties. Translate the heading to match the user's language when writing notes.
 5. Keep `daily_budget` as the food budget; record transport and other spending separately.
-6. Update `total_spent`, `remaining_today`, and `status` to match the daily note.
+6. Update `total_spent`, `remaining_today`, and `status` to match the daily note. If the day only contains food spending, keep the visible summary focused on food-related lines and omit transport and total-spend lines.
 7. Add daily food difference and cumulative monthly food difference to a `## Daily Summary` section. Translate the heading to match the user's language when writing notes.
 8. If the user provides a photo, copy it into the monthly `assets/` folder and embed it with an Obsidian wikilink.
 9. Update `Finance/Expense Records/YYYY-MM/YYYY-MM.md` so the month page stays in sync. Translate the path names to match the user's language and existing vault structure when writing files.
