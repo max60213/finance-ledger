@@ -30,4 +30,4 @@ Use this skill when you want Codex to:
 
 - This skill is designed for a finance vault that follows the rules in `Finance/AGENTS.md`
 - `daily_budget` is the food budget; transport and other spending stay in the daily table
-- Monthly summaries treat subscription fees and investments as preset monthly items
+- Monthly summaries treat subscription and investment as preset monthly items
