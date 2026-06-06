@@ -11,6 +11,19 @@ Traditional Chinese README: [README.zh-TW.md](README.zh-TW.md)
 - Updates month pages so summaries, charts, and totals stay in sync
 - Preserves the vault rules for `daily_budget`, `remaining_today`, and monthly preset categories
 
+## Example outputs
+
+<table>
+  <tr>
+    <td>
+      <img src="assets/monthly-summary-overview-clean.jpg" alt="Monthly summary overview" />
+    </td>
+    <td>
+      <img src="assets/monthly-summary-chart-clean.jpg" alt="Monthly summary charts" />
+    </td>
+  </tr>
+</table>
+
 ## Repository structure
 
 - `SKILL.md`: skill instructions used by AI agents

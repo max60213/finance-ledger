@@ -20,8 +20,8 @@ Use this skill to keep the Finance vault consistent when recording daily expense
 7. Add daily food difference and cumulative monthly food difference to `## 今日結算`.
 8. If the user provides a photo, copy it into the monthly `assets/` folder and embed it with an Obsidian wikilink.
 9. Update `Finance/支出紀錄/YYYY-MM/YYYY-MM.md` so the month page stays in sync.
-10. Treat `訂閱費` and `投資` as preset monthly items that start as already spent/invested in monthly summaries.
-11. Keep category names stable and prefer the vault's existing categories: `飲食`, `交通`, `其他`, plus the finance simulation categories when summarizing a month.
+10. Treat `Subscription` and `Investment` as preset monthly items that start as already spent/invested in monthly summaries. Translate those labels to match the user's language or the vault's existing language when writing notes.
+11. Keep category names stable and prefer the vault's existing categories by default: `Food`, `Transport`, `Other`, plus `Subscription` and `Investment` when summarizing a month. Translate labels to match the user's language or the vault's existing language when writing notes.
 12. If the user asks to persist the change, commit and push only the Finance files that changed.
 
 ## Guardrails
