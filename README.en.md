@@ -26,7 +26,6 @@ Traditional Chinese: [README.md](README.md)
   </tr>
 </table>
 
-These are example outputs showing the format. They are not real spending data.
 
 ### Difference Table
 
@@ -56,7 +55,7 @@ These are example outputs showing the format. They are not real spending data.
 | 01-04 | 350 | 0 | 0 | +50 | +40 |
 | 01-05 | 300 | 40 | 20 | +100 | +140 |
 
-These numbers are example output only and do not represent real spending data.
+> These numbers are example output only and do not represent real spending data.
 
 ## Expense categories
 
