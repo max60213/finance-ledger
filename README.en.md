@@ -13,29 +13,6 @@ Traditional Chinese: [README.md](README.md)
 - Compare planned budgets with actual spending and track balances over time
 - Preserve the user's existing vault structure, language, and category conventions
 
-## Expense categories
-
-Users can define categories that match their financial plan, such as:
-
-- Food
-- Subscription
-- Transport
-- Investment
-- Savings
-- Other
-
-These names are examples rather than fixed requirements. The AI agent should prefer categories and language already used in the vault, while allowing users to add or adjust categories when needed.
-
-## Usage
-
-A user can describe daily spending directly to an AI agent:
-
-> I spent 180 on lunch and 63 on a train ticket today.
-
-The AI agent records the expenses in the daily note, classifies them as food and transport, and recalculates the daily total, budget difference, and cumulative monthly results.
-
-Each month has a summary page. Whenever a daily expense is added or changed, the monthly table, category charts, and budget comparison update accordingly, making it easier to track both daily and monthly spending.
-
 ## Example outputs
 
 <table>
@@ -48,6 +25,8 @@ Each month has a summary page. Whenever a daily expense is added or changed, the
     </td>
   </tr>
 </table>
+
+These are example outputs showing the format. They are not real spending data.
 
 ### Difference Table
 
@@ -77,7 +56,30 @@ Each month has a summary page. Whenever a daily expense is added or changed, the
 | 01-04 | 350 | 0 | 0 | +50 | +40 |
 | 01-05 | 300 | 40 | 20 | +100 | +140 |
 
-These numbers are only example output to show the format. They are not real spending data.
+These numbers are example output only and do not represent real spending data.
+
+## Expense categories
+
+Users can define categories that match their financial plan, such as:
+
+- Food
+- Subscription
+- Transport
+- Investment
+- Savings
+- Other
+
+These names are examples rather than fixed requirements. The AI agent should prefer categories and language already used in the vault, while allowing users to add or adjust categories when needed.
+
+## Usage
+
+A user can describe daily spending directly to an AI agent:
+
+> I spent 180 on lunch and 63 on a train ticket today.
+
+The AI agent records the expenses in the daily note, classifies them as food and transport, and recalculates the daily total, budget difference, and cumulative monthly results.
+
+Each month has a summary page. Whenever a daily expense is added or changed, the monthly table, category charts, and budget comparison update accordingly, making it easier to track both daily and monthly spending.
 
 ## Repository structure
 
@@ -91,3 +93,6 @@ These numbers are only example output to show the format. They are not real spen
 - Category labels default to English, but notes should follow the user's language and existing vault conventions.
 - Detailed budget rules should come from `Finance/AGENTS.md` or an equivalent rules file in the user's vault.
 - Transport and other non-food expenses can be tracked separately without reducing the daily food budget.
+- Typeless is a good fit for natural spoken input.
+- For cross-device Obsidian sync, GitHub is a practical source of truth.
+- On mobile, GitSync can be used to keep devices in sync.
