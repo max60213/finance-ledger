@@ -15,6 +15,17 @@ English: [README.en.md](README.en.md)
 
 ## 範例
 
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/monthly-summary-chart-clean.jpg" alt="每月支出圖表" />
+    </td>
+    <td width="50%">
+      <img src="assets/monthly-summary-overview-clean.jpg" alt="每月支出總覽" />
+    </td>
+  </tr>
+</table>
+
 以下表格是範例輸出，用來示範這個 skill 會輸出什麼樣的月報格式，實際金額會依照使用者每天輸入的花費自動更新。
 
 ### Difference Table
@@ -69,17 +80,6 @@ English: [README.en.md](README.en.md)
 AI agent 會將內容整理到當日支出筆記，分別歸類為飲食與交通，並重新計算當日支出、預算差額及當月累積結果。
 
 每個月都有一份彙整頁面。只要新增或修改每日花費，當月的統計表、分類圖表與預算比較就會同步更新，方便隨時追蹤每天及整月的開銷。
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="assets/monthly-summary-chart-clean.jpg" alt="每月支出圖表" />
-    </td>
-    <td width="50%">
-      <img src="assets/monthly-summary-overview-clean.jpg" alt="每月支出總覽" />
-    </td>
-  </tr>
-</table>
 
 ## 專案結構
 
