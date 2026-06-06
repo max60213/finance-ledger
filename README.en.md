@@ -49,6 +49,36 @@ Each month has a summary page. Whenever a daily expense is added or changed, the
   </tr>
 </table>
 
+### Difference Table
+
+| Category | Planned | Actual | Balance | Usage | Verdict |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Food | 12,000 | 1,860 | +10,140 | 15.5% | On track |
+| Subscription | 1,249 | 1,249 | +0 | 100.0% | On track |
+| Transport | 400 | 172 | +228 | 43.0% | On track |
+| Investment | 13,000 | 13,000 | +0 | 100.0% | On track |
+| Savings | 10,000 | 0 | +10,000 | 0.0% | Not yet funded |
+| Other | 5,255 | 430 | +4,825 | 8.2% | On track |
+
+### Month-End Review
+
+- Total spending: 16,711 NTD
+- Difference from plan: +25,193 NTD
+- Highest overspend category: none
+- Next month adjustment: keep watching food and transport usage, then tighten daily tracking if needed
+
+### Daily Log
+
+| Date | Food | Transport | Other | Daily Difference | Cumulative Difference |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 01-01 | 520 | 80 | 0 | -120 | -120 |
+| 01-02 | 260 | 0 | 0 | +140 | +20 |
+| 01-03 | 430 | 50 | 0 | -30 | -10 |
+| 01-04 | 350 | 0 | 0 | +50 | +40 |
+| 01-05 | 300 | 40 | 20 | +100 | +140 |
+
+These numbers are only sample output to show the format. They are not real spending data.
+
 ## Repository structure
 
 - `SKILL.md`: primary skill instructions for AI agents
