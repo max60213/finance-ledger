@@ -6,10 +6,12 @@ Use this reference for Obsidian finance records in `Finance/`.
 
 ## Core paths
 
-- `Finance/財務模擬.md`: source of planned monthly allocations
-- `Finance/支出紀錄/支出紀錄.md`: entry page for expense records
-- `Finance/支出紀錄/YYYY-MM/YYYY-MM.md`: monthly summary page
-- `Finance/支出紀錄/YYYY-MM/YYYY-MM-DD.md`: daily expense page
+- `Finance/Budget Simulation.md`: source of planned monthly allocations
+- `Finance/Expense Records/Expense Records.md`: entry page for expense records
+- `Finance/Expense Records/YYYY-MM/YYYY-MM.md`: monthly summary page
+- `Finance/Expense Records/YYYY-MM/YYYY-MM-DD.md`: daily expense page
+
+If the user's vault uses another language or an existing folder layout, follow that structure instead of forcing these English names.
 
 ## Daily page shape
 
@@ -24,20 +26,22 @@ remaining_today: 135
 status: within_budget
 ```
 
-Use a `## 今日支出` table with columns:
+Use a `## Daily Expenses` table with columns:
 
-| 類別 | 項目 | 金額 | 備註 |
+| Category | Item | Amount | Notes |
 | --- | --- | ---: | --- |
 
 Rules:
 
 - `daily_budget` is the food budget only.
 - Put transport and other costs in the table, not in properties.
-- Keep `remaining_today = daily_budget - 飲食支出`.
+- Keep `remaining_today = daily_budget - food spending`.
 - Allow `remaining_today` to be negative.
-- Add `今日飲食差額` and `本月飲食累積差額` in `## 今日結算`, and do not repeat `今日飲食剩餘` in the visible summary text.
-- Compute `今日飲食差額 = daily_budget - daily food spending`.
-- Compute `本月飲食累積差額 = day-of-month * daily_budget - cumulative monthly food spending through that day`.
+- Add `Daily Food Difference` and `Monthly Cumulative Food Difference` in `## Daily Summary`, and do not repeat `Daily Food Balance` in the visible summary text.
+- Compute `Daily Food Difference = daily_budget - daily food spending`.
+- Compute `Monthly Cumulative Food Difference = day-of-month * daily_budget - cumulative monthly food spending through that day`.
+
+Translate headings and labels to match the user's language when writing notes.
 
 ## Monthly page shape
 
@@ -51,7 +55,7 @@ Monthly pages should contain:
 - month-end review prompts
 - the daily table at the bottom
 
-The daily table should show `日期`, `飲食`, `交通`, `其他`, `今日差額`, and `累積差額`.
+The daily table should show `Date`, `Food`, `Transport`, `Other`, `Daily Difference`, and `Cumulative Difference`.
 
 ## Category handling
 
