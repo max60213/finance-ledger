@@ -4,6 +4,12 @@ Finance Ledger is an AI agent skill for recording daily expenses, tracking budge
 
 Traditional Chinese: [README.md](README.md)
 
+## Prerequisites
+
+- Obsidian
+- Dataview plugin
+- Charts plugin
+
 ## Features
 
 - Record daily expenses through natural-language or spoken descriptions

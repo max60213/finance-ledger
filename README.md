@@ -4,6 +4,11 @@
 
 English: [README.en.md](README.en.md)
 
+## 前置需求
+
+- Obsidian
+- Dataview plugin
+- Charts plugin
 
 ## 功能
 
