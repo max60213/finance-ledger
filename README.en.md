@@ -13,39 +13,6 @@ Traditional Chinese: [README.md](README.md)
 - Compare planned budgets with actual spending and track balances over time
 - Preserve the user's existing vault structure, language, and category conventions
 
-## Prerequisites
-
-- Obsidian
-- Dataview plugin
-- Charts plugin
-
-## Structure
-
-```text
-Finance/
-├─ Expense Records/
-│  ├─ 2026-05/
-│  │  ├─ 2026-05.md
-│  │  ├─ 2026-05-29.md
-│  │  ├─ 2026-05-30.md
-│  │  └─ 2026-05-31.md
-│  └─ 2026-06/
-│     ├─ 2026-06.md
-│     ├─ 2026-06-01.md
-│     ├─ 2026-06-02.md
-│     └─ 2026-06-05.md
-└─ Budget Simulation.md
-```
-
-Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.
-
-### Repository structure
-
-- `SKILL.md`: primary skill instructions for Agent
-- `agents/openai.yaml`: metadata used by skill lists and interfaces
-- `references/finance-workflow.md`: detailed bookkeeping workflow and data structure
-- `assets/`: example images used by the README
-
 ## Example outputs
 
 <table>
@@ -89,6 +56,39 @@ Each month lives in its own folder. The month page handles the summary, and each
 | 01-05 | 300 | 40 | 20 | +100 | +140 |
 
 > These numbers are example output only and do not represent real spending data.
+
+## Prerequisites
+
+- Obsidian
+- Dataview plugin
+- Charts plugin
+
+## Structure
+
+```text
+Finance/
+├─ Expense Records/
+│  ├─ 2026-05/
+│  │  ├─ 2026-05.md
+│  │  ├─ 2026-05-29.md
+│  │  ├─ 2026-05-30.md
+│  │  └─ 2026-05-31.md
+│  └─ 2026-06/
+│     ├─ 2026-06.md
+│     ├─ 2026-06-01.md
+│     ├─ 2026-06-02.md
+│     └─ 2026-06-05.md
+└─ Budget Simulation.md
+```
+
+Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.
+
+### Repository structure
+
+- `SKILL.md`: primary skill instructions for Agent
+- `agents/openai.yaml`: metadata used by skill lists and interfaces
+- `references/finance-workflow.md`: detailed bookkeeping workflow and data structure
+- `assets/`: example images used by the README
 
 ## Expense categories
 
