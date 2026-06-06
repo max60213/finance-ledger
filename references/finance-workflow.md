@@ -40,6 +40,7 @@ Rules:
 - Add `Daily Food Difference` and `Monthly Cumulative Food Difference` in `## Daily Summary`, and do not repeat `Daily Food Balance` in the visible summary text.
 - Compute `Daily Food Difference = daily_budget - daily food spending`.
 - Compute `Monthly Cumulative Food Difference = day-of-month * daily_budget - cumulative monthly food spending through that day`.
+- Do not add an H1 title to the daily note; the file name already serves as the visible page title in Obsidian.
 
 Translate headings and labels to match the user's language when writing notes.
 
