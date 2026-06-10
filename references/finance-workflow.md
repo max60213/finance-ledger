@@ -41,7 +41,7 @@ Rules:
 - Compute `Daily Food Balance = daily_budget - daily food spending`.
 - Compute `Monthly Cumulative Food Balance = day-of-month * daily_budget - cumulative monthly food spending through that day`.
 - Do not add an H1 title to the daily note; the file name already serves as the visible page title in Obsidian.
-- Keep the visible `Daily Summary` concise: if the day only contains food spending, omit transport and total-spend lines; if there are transport or other non-food items, list them explicitly and include `total_spent`.
+- Keep the visible `Daily Summary` concise: if the day only contains food spending, omit transport and total-spend lines; if there are transport or other non-food items, list them explicitly and include `total_spent`. Do not repeat the unchanged `daily_budget`; only mention it when the user explicitly changes the food budget that day.
 
 Translate headings and labels to match the user's language when writing notes.
 
