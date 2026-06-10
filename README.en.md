@@ -78,7 +78,7 @@ Finance/
 │     ├─ 2026-06-01.md
 │     ├─ 2026-06-02.md
 │     └─ 2026-06-05.md
-└─ Budget Simulation.md
+└─ Budget.md
 ```
 
 Each month lives in its own folder. The month page handles the summary, and each daily note holds the day's detail.

@@ -6,7 +6,7 @@ Use this reference for Obsidian finance records in `Finance/`.
 
 ## Core paths
 
-- `Finance/Budget Simulation.md`: source of planned monthly allocations
+- `Finance/Budget.md`: source of monthly budget allocations
 - `Finance/Expense Records/Expense Records.md`: entry page for expense records
 - `Finance/Expense Records/YYYY-MM/YYYY-MM.md`: monthly summary page
 - `Finance/Expense Records/YYYY-MM/YYYY-MM-DD.md`: daily expense page
@@ -50,14 +50,14 @@ Translate headings and labels to match the user's language when writing notes.
 Monthly pages should contain:
 
 - a monthly overview with record count, total spending, average daily spending, and month balance
-- a food cumulative progress chart comparing ideal cumulative budget and actual cumulative food spending, followed by the signed difference `ideal cumulative budget - actual cumulative food spending`
-- a pie chart for actual monthly spending
+- a food cumulative progress chart comparing cumulative budget and actual cumulative food spending, followed by the signed difference `cumulative budget - actual cumulative food spending`
+- a pie chart for actual monthly spending plus a `Remaining` slice so the chart totals 100%, where `Remaining = monthly income - actual monthly spending`
 - a bar chart comparing planned vs actual spending
 - a comparison table with planned amount, actual amount, balance, usage rate, and verdict
 - month-end review prompts
 - the daily table at the bottom
 
-The daily table should show `Date`, `Food`, `Transport`, `Other`, `Daily Balance`, and `Cumulative Balance`.
+The daily table should show `Date`, `Food`, `Transport`, `Investment`, `Other`, `Daily Balance`, and `Cumulative Balance`.
 
 ## Category handling
 
