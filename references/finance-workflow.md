@@ -74,7 +74,7 @@ Monthly summaries should treat these as preset:
 - `Subscription`
 - `Investment`
 
-These categories start the month as already fully spent/invested and should not be re-accumulated from daily pages.
+These categories start the month as already fully spent/invested/saved and should not be re-accumulated from daily pages.
 
 If the user's vault or request is in another language, translate the labels to match that language while preserving the same underlying category meaning.
 
